@@ -1,0 +1,119 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+ 	.navbar-right li a {
+		font-size: 12px;
+		padding-right: 10px;
+	}
+	.social-icons ul li {
+		margin-bottom: 10px;
+	}
+	.price {
+		font-size: 16px;
+		height: 110px;
+		line-height: 30px;
+		width: 100%;
+	}
+	.price span {
+		font-size: 40px;
+		margin-top: 27px;
+	}
+	.btn-signup {
+		padding: 10px 20px;
+	}
+}
+
+/* xs */
+@media (max-width: 767px) {
+#total
+{
+	background-image: url("../img/fondo.png");
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+}
+.opacidad
+{
+	position: fixed;
+    opacity: 1;
+    background-color: rgba(0,0,0,.6);
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#titulo
+{
+	padding-top: 25px;
+	color: white;
+	font-family: 'Lobster Two';
+}	
+
+#titulo h1
+{
+	font-size: 25px;
+}
+
+#descripcion
+{
+	padding-top: 15px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+}
+
+#engrane
+{
+	color: white;
+	font-size: 15px;
+}
+
+#fecha
+{
+	color: white;
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+}
+#redessociales a
+{
+	color: white;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#textosociales
+{
+	padding-top: 80px; 
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+
+}
+/* XS Portrait */
+@media (max-width: 479px) {
+  
+	.team-members .col-sm-3, 
+	.pricing-table .col-sm-3, 
+	#portfolio .col-sm-3, 
+	.blog-posts .col-sm-4 {
+		width:100%;
+		float: none;
+	}
+}
+
